@@ -3,6 +3,7 @@ import Carousel from "react-bootstrap/Carousel";
 import carousalImage1 from "../../assets/img/carousalImage1.jpg";
 import carousalImage2 from "../../assets/img/carousalImage2.jpeg";
 import carousalImage3 from "../../assets/img/carousalImage3.jpeg";
+import ScrollDown from "../scroll-down/scroll-down.component";
 import "./my-carousel.component.style.css"
 
 const MyCarousal = () => {
@@ -11,7 +12,7 @@ const MyCarousal = () => {
       <Carousel
         controls={false}
         indicators
-        interval={2500}
+        interval={2600}
         pauseOnHover={false}
       >
         <Carousel.Item>
@@ -36,6 +37,7 @@ const MyCarousal = () => {
           />
         </Carousel.Item>
       </Carousel>
+      <ScrollDown />
     </div>
   );
 };
