@@ -2,6 +2,8 @@ import React from "react";
 import MyNavbar from "./components/my-navbar/my-navbar.component";
 import MyCarousel from "./components/my-carousal/my-carousal.component";
 import MyTitleMessage from "./components/title-message/title-message.component";
+import FooterPanel from "./components/footer/footer.component";
+
 import "./App.css";
 
 const App = () => {
@@ -10,6 +12,7 @@ const App = () => {
       <MyNavbar />
       <MyTitleMessage />
       <MyCarousel />
+      <FooterPanel />
     </div>
   );
 };
