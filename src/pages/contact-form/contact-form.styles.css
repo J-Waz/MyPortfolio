@@ -1,0 +1,16 @@
+.contact-jumbotron {
+    background-image: url("");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .success-msg {
+    color: #57A773;
+    padding: 10px 15px;
+  }
+  
+  
+  .err-msg {
+    color: #52ee5a;
+    padding: 10px 15px;
+  }
