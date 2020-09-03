@@ -16,7 +16,7 @@ const MyScroll = styled.div`
 
   .turn {
     cursor: pointer;
-    transform: rotate(90deg);
+    ${'' /* transform: rotate(90deg); */}
 
     
   }
@@ -26,7 +26,7 @@ const ScrollDown = () => {
   return (
     <MyScroll >
       <div className="turn">
-        <span> &gt; </span>
+        <span> &#74; </span>
       </div>
     </MyScroll>
   );
