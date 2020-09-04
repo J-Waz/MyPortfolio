@@ -111,17 +111,25 @@ class ContactForm extends React.Component {
                 onChange={this.handleChange.bind(this)}
               />
             </Form.Group>
+            <Form.Group>
+              <Button
+                className="send-btn"
+                variant="primary"
+                size="small"
+                block
+                variant="primary"
+                type="submit"
+              >
+                Send
+              </Button>
 
-            <Button  className="d-inline-block" variant="primary" type="submit">
-              Send
-            </Button>
-
-            {this.state.emailSent === true && (
-              <p className="d-inline success-msg">Email Sent!</p>
-            )}
-            {this.state.emailSent === false && (
-              <p className="d-inline err-msg">Email Sent!</p>
-            )}
+              {this.state.emailSent === true && (
+                <p className="d-inline success-msg">Email Sent!</p>
+              )}
+              {this.state.emailSent === false && (
+                <p className="d-inline err-msg">Email Sent!</p>
+              )}
+            </Form.Group>
           </Form>
         </div>
         <Jumbotron className="contact-jumbotron">
@@ -129,18 +137,7 @@ class ContactForm extends React.Component {
             <Col className="d-flex justify-content-center flex-wrap">
               <div className="m-2">
                 <a
-                  href="mailto:akjha96@gmail.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Button variant="outline-danger" title="akjha96@gmail.com">
-                    <i className="fas fa-envelope-square"></i> Email Me
-                  </Button>
-                </a>
-              </div>
-              <div className="m-2">
-                <a
-                  href="https://www.linkedin.com/in/anand-kumar-jha-745798a4/"
+                  href="https://www.linkedin.com/in/jakejgw/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -151,7 +148,7 @@ class ContactForm extends React.Component {
               </div>
               <div className="m-2">
                 <a
-                  href="https://www.facebook.com/akjha132"
+                  href="https://www.facebook.com/JacobWazydrag"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -162,7 +159,7 @@ class ContactForm extends React.Component {
               </div>
               <div className="m-2">
                 <a
-                  href="https://github.com/akjha96"
+                  href="https://github.com/JacobWazydrag"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -173,7 +170,7 @@ class ContactForm extends React.Component {
               </div>
               <div className="m-2">
                 <a
-                  href="https://twitter.com/akjha96"
+                  href="https://twitter.com/J_wazydrag"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
