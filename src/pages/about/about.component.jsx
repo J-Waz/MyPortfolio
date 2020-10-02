@@ -21,16 +21,16 @@ const About = () => {
             </Col>
             <Col xs={12} md={6}>
               <Row className=" align-items-start p-2 my-details rounded">
-                I am <strong>&nbsp;Jacob Wazydrag</strong>
-                <br />A passionate programmer born and raised in Chicago, and a Full Stack Web developer with React.js, Redux, Express.js, Node.js, and Ruby on Rails as my tech stack.
+                <strong>&nbsp;Jacob Wazydrag</strong>
+                <br />A passionate programmer born and raised in Chicago, and a Full Stack Web developer with ReactJS, Redux, ExpressJS, NodeJS, Ruby on Rails as my tech stack.
                 <br />
-                In 2020 I successfully completed my engineering training at Flat Iron school.  
+                In 2020 I successfully completed my engineering training at FlatIron school.  
                 <br />
-                Working with ArtSpace chicago I was able to get my feet wet in a web development environment, developing web applications for artists using Rreact.js.
+                Working with ArtSpace chicago I was able to get my feet wet in a web development environment, developing web applications for artists using ReactJS.
                 <br />
-                Using my experience in customer service I was able to communicate with clients and the business owner to launch a prodcut on time and met the needs of the store.
+                Using my experience in customer service I was able to communicate with clients and the business owner to launch a product on time and met the needs of the store.
                 <br /> <br />
-                I am escited to join a team to further my development as a Software Engineer.
+                I am excited to join a team to further my development as a Software Engineer.
                 <Col className="d-flex justify-content-center flex-wrap">
                   <div>
                     <a href="#contact">

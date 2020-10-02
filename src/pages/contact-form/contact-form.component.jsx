@@ -117,7 +117,6 @@ class ContactForm extends React.Component {
                 variant="primary"
                 size="small"
                 block
-                variant="primary"
                 type="submit"
               >
                 Send
@@ -127,7 +126,7 @@ class ContactForm extends React.Component {
                 <p className="d-inline success-msg">Email Sent!</p>
               )}
               {this.state.emailSent === false && (
-                <p className="d-inline err-msg">Email Sent!</p>
+                <p className="d-inline err-msg">Email Not Sent!</p>
               )}
             </Form.Group>
           </Form>

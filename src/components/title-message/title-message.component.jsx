@@ -43,7 +43,7 @@ const TitleMessage = () => (
             <strong>I'm Jacob</strong>
           </span>
         </div>
-        <div className="sub">
+        <div id="title-message" className="sub">
           <Typewriter
             options={{
               strings: ["Musician", "Performer", "Motivator"],
