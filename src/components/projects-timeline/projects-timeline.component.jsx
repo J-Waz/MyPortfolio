@@ -89,9 +89,6 @@ const TimeLine = () => {
                 <UrlButton href="https://github.com/JacobWazydrag/WinfredsArtApp" target="_blank">
                   SOURCE CODE
                 </UrlButton>
-                <UrlButton href="https://www.youtube.com/channel/UCa7lAH6TD8DZ1r7sqaFfMog?view_as=subscriber" target="_blank">
-                  WATCH VIDEO
-                </UrlButton>
               </div>
             </div>
           </ImageEvent>
@@ -156,13 +153,11 @@ the code.
                 </Accordion>
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton href="" target="_blank">
-                  SEE LIVE
-                </UrlButton>
+
                 <UrlButton href="https://github.com/JacobWazydrag/final-mod-5-frontend" target="_blank">
                   SOURCE CODE
                 </UrlButton>
-                <UrlButton href="https://www.youtube.com/channel/UCa7lAH6TD8DZ1r7sqaFfMog?view_as=subscriber" target="_blank">
+                <UrlButton href="https://youtu.be/_f6oPEbLZTE" target="_blank">
                   WATCH VIDEO
                 </UrlButton>
               </div>
@@ -220,9 +215,6 @@ the code.
                 </Accordion>
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
-              <UrlButton href="https://smart-face-detect-app.herokuapp.com/" target="_blank">
-                  SEE LIVE
-                </UrlButton>
                 <UrlButton href="https://github.com/JacobWazydrag/ReminderApp" target="_blank">
                   SOURCE CODE
                 </UrlButton>
