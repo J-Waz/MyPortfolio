@@ -40,16 +40,9 @@ const About = () => {
                     </a>
                   </div>
                   <div>
-                    <a href="https://docs.google.com/document/d/e/2PACX-1vQ55AFbZpaRBtoh8__QImFPRSjQiZVp8AovCB_ZhN6zomfYzO6m5SZJUiQXZfYGQA/pub" target="_blank" rel="noopener noreferrer">
+                    <a href="https://docs.google.com/document/d/e/2PACX-1vQU7wNwpVOvquL0qkoPo0jsbOK1YdCLaGfw3j9468iimP1KpWcp37xJgmwDmaq07oiElToEh7_AAF_w/pub" target="_blank" rel="noopener noreferrer">
                       <Button className="m-2" variant="outline-success">
                         My Resume
-                      </Button>
-                    </a>
-                  </div>
-                  <div>
-                    <a href="https://docs.google.com/document/d/e/2PACX-1vQ55AFbZpaRBtoh8__QImFPRSjQiZVp8AovCB_ZhN6zomfYzO6m5SZJUiQXZfYGQA/pub" target="_blank" rel="noopener noreferrer">
-                      <Button className="m-2" variant="outline-success">
-                        CV
                       </Button>
                     </a>
                   </div>
